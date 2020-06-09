@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dfe811103f7658bd2b9526ce6d7c3d89",
+    "content-hash": "1c5dbdad4a46bdf47b7fc351f9d902cb",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -4349,7 +4349,7 @@
         },
         {
             "name": "uspdev/senhaunica-socialite",
-            "version": "v2.0.3",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/uspdev/senhaunica-socialite.git",
@@ -6573,7 +6573,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "uspdev/senhaunica-socialite": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

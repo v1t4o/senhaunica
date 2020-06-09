@@ -3,6 +3,9 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', 'indexController@index');
+Route::get('login/', 'Auth\LoginController@redirectToProvider');
+Route::get('callback', 'Auth\LoginController@handleProviderCallback');
+Route::get('logout', 'Auth\LoginController@logout');
 
 /*
 |--------------------------------------------------------------------------
@@ -18,3 +21,8 @@ Route::get('/', 'indexController@index');
 /*Route::get('/', function () {
     return view('welcome');
 });*/
+
+/*Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+*/
